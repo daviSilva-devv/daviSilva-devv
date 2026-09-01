@@ -52,6 +52,12 @@ When I'm not studying or building something, I'm usually **training**, around **
 
 `training` · `football` · `music` · `fragrances`
 
+<p align="center">
+  <a href="https://github.com/kittinan/spotify-github-profile">
+    <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=21il637imij722ctfxvr5uhkq&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false&profanity=false&hide_remaster=false" alt="Spotify now playing" />
+  </a>
+</p>
+
 ### What I want this profile to show
 
 Not a list of technologies I touched once. I want this GitHub to become a record of things I can actually explain, run, test and improve.
