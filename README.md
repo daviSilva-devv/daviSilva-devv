@@ -46,6 +46,12 @@
 
 Currently studying **Mainframe and COBOL** alongside backend and systems fundamentals.
 
+### Outside the IDE
+
+When I'm not studying or building something, I'm usually **training**, around **football**, listening to **music**, or going way too deep into **fragrances**.
+
+`training` · `football` · `music` · `fragrances`
+
 ### What I want this profile to show
 
 Not a list of technologies I touched once. I want this GitHub to become a record of things I can actually explain, run, test and improve.
