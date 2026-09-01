@@ -1,116 +1,59 @@
-<div align="center">
+<p align="center">
+  <img src="./assets/hero.svg" width="100%" alt="Davi Silva — Software Development, Backend and Systems" />
+</p>
 
-# Davi Silva
+<p align="center">
+  <a href="https://www.linkedin.com/in/davisilvadevv/">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="mailto:Davi261018@outlook.com">
+    <img src="https://img.shields.io/badge/Outlook-0078D4?style=for-the-badge&logo=microsoftoutlook&logoColor=white" />
+  </a>
+</p>
 
-### `software development  ·  backend  ·  systems`
+<table>
+<tr>
+<td width="50%" valign="top">
 
-São Paulo, Brazil 🇧🇷
+### Current stack
 
-[LinkedIn](https://www.linkedin.com/in/davisilvadevv/) ·
-[Email](mailto:Davi261018@outlook.com)
+<img src="https://skillicons.dev/icons?i=java,python,js,nodejs,postgres,mysql,git,github,postman,vscode,idea" />
 
-</div>
+<br><br>
 
-<br>
+**Building:** backend systems, automation and real business workflows  
+**Exploring:** Mainframe, COBOL and enterprise systems  
+**Goal:** software development internship
 
-```text
-davi@github:~$ whoami
+</td>
+<td width="50%" valign="top">
 
-ADS student focused on software development.
-Building with Java, Python and SQL.
-Currently exploring backend systems, Mainframe and COBOL.
+### Featured build
 
-status      → looking for an internship
-location    → São Paulo, BR
-education   → Analysis and Systems Development — SENAC
-$ stack
-Languages       Java · Python · JavaScript · SQL
-Backend         REST APIs · Node.js · Business Logic
-Database        PostgreSQL · MySQL
-Tools           Git · GitHub · Postman · IntelliJ · VS Code
-Exploring       Mainframe · COBOL · CI/CD
-<p> <img height="38" src="https://skillicons.dev/icons?i=java,python,js,postgres,mysql,nodejs,git,github,postman" /> </p>
-$ projects --featured
-01 / Sales Hub
+**Sales Hub**  
+Business-oriented system built from a real operational workflow.
 
-Business system built around a real operational workflow.
+- order and commercial flow
+- business rules
+- validation and data handling
+- billing workflow
+- maintainable application structure
 
-Order management, commercial processes, validation, billing flow and business rules.
+</td>
+</tr>
+</table>
 
-business logic sql backend real-world workflow
+## Live GitHub metrics
 
-02 / Java Lab
+<p align="center">
+  <img src="./metrics-overview.svg" width="49%" alt="GitHub overview metrics" />
+  <img src="./metrics-activity.svg" width="49%" alt="GitHub activity metrics" />
+</p>
 
-Software engineering fundamentals through practical Java projects.
+> These panels are generated automatically from my GitHub activity and refresh through GitHub Actions.
 
-OOP, collections, exceptions, architecture, business rules and clean code.
+## Direction
 
-java oop backend
+`Java` · `Python` · `SQL` · `Backend` · `REST APIs` · `Systems` · `Mainframe / COBOL`
 
-03 / Python Automation
-
-Automating repetitive work instead of doing it twice.
-
-File processing, APIs, validation, data handling and utility scripts.
-
-python automation apis
-
-04 / Mainframe Lab
-
-Exploring the technology behind systems that refuse to die.
-
-COBOL fundamentals, batch processing, enterprise systems and Mainframe concepts.
-
-cobol mainframe learning
-
-$ currently
-building:
-  - real-world software
-  - backend projects
-  - automation tools
-
-studying:
-  - Java
-  - Python
-  - SQL
-  - REST APIs
-  - Mainframe
-  - COBOL
-
-looking_for:
-  - Software Development Internship
-  - Backend Internship
-  - Java / Python Internship
-  - Systems Internship
-  - Mainframe / COBOL Internship
-
-also_open_to:
-  - QA Internship
-$ github --stats
-<div align="center"> <img height="165" src="https://github-readme-stats.vercel.app/api?username=daviSilva-devv&show_icons=true&hide_title=true&hide_border=true&theme=transparent" /> <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=daviSilva-devv&layout=compact&hide_border=true&theme=transparent" /> </div>
-$ philosophy
-understand → build → break → fix → improve → ship
-
-I like software that solves actual problems.
-
-Not just projects made to fill a GitHub profile.
-
-<div align="center">
-Open to internship opportunities.
-
-linkedin · email
-
-</div> ```
-Por que esse fica melhor
-
-Olha a diferença:
-
-ANTES
-
-👨‍💻 About Me
-🚀 Current Mission
-🎯 Career Focus
-⚡ Technologies
-GIF escrevendo texto
-banner gradient
-500 badges
+Looking primarily for **Software Development, Backend, Systems, Java/Python and Mainframe/COBOL internship opportunities**. Also open to software testing roles.
