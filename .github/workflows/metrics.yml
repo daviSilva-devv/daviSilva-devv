@@ -41,40 +41,30 @@ jobs:
           plugin_isocalendar_duration: full-year
           config_timezone: America/Sao_Paulo
 
-      - name: Generate code profile
+      - name: Generate coding habits
         if: ${{ success() || failure() }}
         uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           user: daviSilva-devv
-          filename: metrics-code.svg
-          output_action: commit
-          base: repositories
-          plugin_languages: yes
-          plugin_languages_sections: most-used, recently-used
-          plugin_languages_details: percentage, lines
-          plugin_languages_limit: 6
-          plugin_languages_indepth: yes
-          plugin_languages_ignored: html, css
-          plugin_lines: yes
-          config_order: languages, lines, base.repositories
-          config_timezone: America/Sao_Paulo
-
-      - name: Generate activity
-        if: ${{ success() || failure() }}
-        uses: lowlighter/metrics@latest
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: daviSilva-devv
-          filename: metrics-activity.svg
+          filename: metrics-habits.svg
           output_action: commit
           base: ""
-          plugin_activity: yes
-          plugin_activity_limit: 8
-          plugin_activity_days: 0
-          plugin_activity_filter: push, pr, issue, review, release, ref/create
           plugin_habits: yes
           plugin_habits_facts: yes
           plugin_habits_charts: yes
-          config_order: activity, habits
+          config_timezone: America/Sao_Paulo
+
+      - name: Generate achievements
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: daviSilva-devv
+          filename: metrics-achievements.svg
+          output_action: commit
+          base: ""
+          plugin_achievements: yes
+          plugin_achievements_display: compact
+          plugin_achievements_threshold: X
           config_timezone: America/Sao_Paulo
