@@ -1,44 +1,21 @@
-<div align="center">
+<p align="center">
+  <img src="./assets/system-interface.svg" width="100%" alt="Davi Silva — animated software systems interface" />
+</p>
 
-# Davi Silva
-
-<samp>
-software development · backend · systems
-</samp>
-
-<br>
-<br>
-
-ADS @ SENAC · São Paulo, Brazil  
-Java · Python · SQL · REST APIs  
-exploring Mainframe & COBOL
+<p align="center">
+  <samp>
+    <a href="https://www.linkedin.com/in/davisilvadevv/">linkedin</a> ·
+    <a href="mailto:Davi261018@outlook.com">email</a> ·
+    <a href="https://github.com/daviSilva-devv?tab=repositories">repositories</a>
+  </samp>
+</p>
 
 <br>
-
-<a href="https://www.linkedin.com/in/davisilvadevv/">linkedin</a> ·
-<a href="mailto:Davi261018@outlook.com">email</a>
-
-<br>
-<br>
-
-<code>open to internship opportunities</code>
-
-</div>
-
-<br>
-
-I like building software around **real operational problems** — business rules, data flow, automation and systems that need to make sense outside the IDE.
-
-Right now I'm focused on backend fundamentals with **Java, Python and SQL**, while studying how enterprise systems work through **Mainframe and COBOL**.
-
----
-
-## Activity
 
 <img src="./github-metrics.svg" alt="Davi Silva GitHub metrics" width="100%" />
 
----
+<br>
 
-<sub>
-Looking primarily for Software Development, Backend, Systems, Java/Python and Mainframe/COBOL internship opportunities. Also open to Software Testing / QA roles.
-</sub>
+<p align="center">
+  <sub>Software Development · Backend · Systems · Java/Python · Mainframe/COBOL · open to internship opportunities</sub>
+</p>
