@@ -23,7 +23,7 @@ jobs:
           user: daviSilva-devv
           filename: metrics-general.svg
           output_action: commit
-          base: header
+          base: header, activity, community
           base_indepth: yes
           base_hireable: yes
           config_timezone: America/Sao_Paulo
