@@ -1,14 +1,14 @@
-> Want to know what I'm working on right now?  
-> I'm turning my studies and real-world workflow ideas into public projects while looking for my first software development internship.
+> **What am I working on right now?**  
+> I'm studying ADS at SENAC and turning what I learn — plus real operational problems I've worked around — into public software projects.
 >
-> - [ ] Publish **Sales Hub** as a portfolio-ready project
-> - [ ] Ship a focused **Java / OOP** project
-> - [ ] Publish a useful **Python automation** project
-> - [ ] Start a public **Mainframe / COBOL** study repository
-> - [ ] Add **tests and CI** to the projects that matter
->   - → Current priority: getting the first portfolio projects public and presentable
+> - [ ] **Sales Hub** — real business workflow turned into a portfolio project
+> - [ ] **Java** — focused backend / OOP project
+> - [ ] **Python** — useful automation project
+> - [ ] **Mainframe / COBOL** — public study lab
+> - [ ] **Testing + CI** — added where it actually improves the projects
+>   - → current focus: getting **Sales Hub** ready to publish
 >
-> *Open to Software Development, Backend, Systems and Mainframe/COBOL internship opportunities. QA / Software Testing is also an option.*
+> *Looking for Software Development, Backend and Systems internships. Mainframe / COBOL opportunities are welcome too.*
 
 <p align="center">
   <samp>
@@ -21,45 +21,36 @@
 <a href="#">
   <img align="left" width="390" src="./metrics-general.svg" alt="Davi Silva GitHub overview" />
 </a>
-<a href="#">
-  <img align="right" width="390" src="./metrics-code.svg" alt="Davi Silva code metrics" />
+<a href="https://spotify-github-profile.kittinanx.com/api/view?uid=21il637imij722ctfxvr5uhkq&redirect=true">
+  <img align="right" width="390" src="https://spotify-github-profile.kittinanx.com/api/view?uid=21il637imij722ctfxvr5uhkq&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false&profanity=false&hide_remaster=false" alt="Spotify now playing" />
 </a>
+
+<img align="right" width="390" height="72" src="./assets/transparent.svg" alt="" />
 
 <a href="#">
   <img align="left" width="390" src="./metrics-calendar.svg" alt="Davi Silva contribution calendar" />
 </a>
-<a href="#">
-  <img align="right" width="390" src="./metrics-activity.svg" alt="Davi Silva activity metrics" />
-</a>
 
-<p align="center">
-  <img width="100%" height="1" src="https://raw.githubusercontent.com/daviSilva-devv/daviSilva-devv/main/assets/transparent.svg" alt="" />
-</p>
+<img width="100%" height="1" src="./assets/transparent.svg" alt="" />
 
 <br clear="both" />
 
 ---
 
-### Current stack
+### Stack
 
 `Java` · `Python` · `SQL` · `REST APIs` · `Git` · `PostgreSQL / MySQL`
 
-Currently studying **Mainframe and COBOL** alongside backend and systems fundamentals.
+Learning **Mainframe / COBOL** alongside backend and systems fundamentals.
 
 ### Outside the IDE
 
-When I'm not studying or building something, I'm usually **training**, around **football**, listening to **music**, or going way too deep into **fragrances**.
-
 `training` · `football` · `music` · `fragrances`
 
+I spend most of my time outside code training, watching or playing football, listening to music and, for some reason, knowing far too much about fragrances.
+
+---
+
 <p align="center">
-  <a href="https://spotify-github-profile.kittinanx.com/api/view?uid=21il637imij722ctfxvr5uhkq&redirect=true">
-    <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=21il637imij722ctfxvr5uhkq&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false&profanity=false&hide_remaster=false" alt="Spotify now playing" />
-  </a>
+  <sub>Profile metrics update automatically with <a href="https://github.com/lowlighter/metrics">lowlighter/metrics</a>.</sub>
 </p>
-
-### What I want this profile to show
-
-Not a list of technologies I touched once. I want this GitHub to become a record of things I can actually explain, run, test and improve.
-
-<sub>Metrics are generated automatically with <a href="https://github.com/lowlighter/metrics">lowlighter/metrics</a>.</sub>
