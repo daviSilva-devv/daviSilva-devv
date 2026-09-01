@@ -1,6 +1,6 @@
 <svg width="1280" height="470" viewBox="0 0 1280 470" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">Davi Silva — software development, backend and systems</title>
-  <desc id="desc">Minimal animated software interface for Davi Silva's GitHub profile.</desc>
+  <desc id="desc">Animated profile interface showing Davi Silva's current stack and software interests.</desc>
 
   <defs>
     <linearGradient id="bg" x1="80" y1="20" x2="1210" y2="450" gradientUnits="userSpaceOnUse">
@@ -17,43 +17,38 @@
     <style>
       .mono { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', monospace; }
       .ui { font-family: Inter, 'Segoe UI', Arial, sans-serif; }
-      .micro { fill:#7D8590; font-size:12px; font-weight:700; letter-spacing:1.6px; }
+      .micro { fill:#7D8590; font-size:12px; font-weight:700; letter-spacing:1.4px; }
       .small { fill:#8B949E; font-size:14px; font-weight:600; }
       .title { fill:#F0F6FC; font-size:64px; font-weight:760; letter-spacing:-1.8px; }
       .sub { fill:#C9D1D9; font-size:18px; font-weight:600; }
-      .label { fill:#8B949E; font-size:11px; font-weight:700; letter-spacing:1.3px; }
+      .label { fill:#7D8590; font-size:11px; font-weight:700; letter-spacing:1px; }
       .value { fill:#E6EDF3; font-size:14px; font-weight:650; }
-      .route { stroke-dasharray:6 10; animation:route 12s linear infinite; }
-      .caret { animation:caret 1.05s steps(2,end) infinite; }
-      .status { animation:status 2.8s ease-in-out infinite; }
+      .route { stroke-dasharray:5 12; animation:route 14s linear infinite; }
       @keyframes route { to { stroke-dashoffset:-180; } }
-      @keyframes caret { 0%,48%{opacity:1} 49%,100%{opacity:0} }
-      @keyframes status { 0%,100%{opacity:.45} 50%{opacity:1} }
     </style>
   </defs>
 
   <rect width="1280" height="470" rx="24" fill="url(#bg)"/>
-  <rect width="1280" height="470" rx="24" fill="url(#grid)" opacity="0.22"/>
+  <rect width="1280" height="470" rx="24" fill="url(#grid)" opacity="0.16"/>
   <rect x="1" y="1" width="1278" height="468" rx="23" stroke="#30363D" stroke-width="2"/>
 
-  <!-- app bar -->
+  <!-- top bar -->
   <rect x="24" y="24" width="1232" height="48" rx="12" fill="#0B0F14" stroke="#21262D"/>
-  <circle cx="48" cy="48" r="5" fill="#3FB950" class="status"/>
-  <text x="62" y="52" class="mono micro" fill="#8B949E">daviSilva-devv / profile</text>
-  <text x="1188" y="52" text-anchor="end" class="mono micro">SÃO PAULO</text>
-  <text x="1228" y="52" text-anchor="end" class="mono micro">BR</text>
+  <circle cx="48" cy="48" r="4" fill="#3FB950"/>
+  <text x="62" y="52" class="mono micro">daviSilva-devv / profile</text>
+  <text x="1228" y="52" text-anchor="end" class="mono micro">SÃO PAULO · BR</text>
 
-  <!-- left identity -->
+  <!-- identity -->
   <text x="64" y="126" class="mono micro">SOFTWARE DEVELOPMENT · BACKEND · SYSTEMS</text>
   <text x="60" y="202" class="ui title">Davi Silva</text>
   <rect x="62" y="220" width="408" height="2" rx="1" fill="url(#accent)"/>
   <text x="64" y="258" class="ui sub">Java · Python · SQL · REST APIs</text>
-  <text x="64" y="288" class="mono small">ADS @ SENAC · Mainframe / COBOL in progress</text>
+  <text x="64" y="288" class="mono small">ADS @ SENAC · studying Mainframe / COBOL</text>
 
-  <!-- status / links strip -->
+  <!-- stack row -->
   <g transform="translate(64 326)">
     <rect width="220" height="36" rx="8" fill="#0D1710" stroke="#238636"/>
-    <circle cx="18" cy="18" r="4" fill="#3FB950" class="status"/>
+    <circle cx="18" cy="18" r="4" fill="#3FB950"/>
     <text x="34" y="22" class="mono" fill="#7EE787" font-size="11" font-weight="800" letter-spacing="1">OPEN TO INTERNSHIP</text>
 
     <rect x="234" width="98" height="36" rx="8" fill="#0D1117" stroke="#30363D"/>
@@ -66,69 +61,63 @@
     <text x="490" y="22" text-anchor="middle" class="mono" fill="#C9D1D9" font-size="11" font-weight="700">SQL</text>
   </g>
 
-  <!-- one-line current focus -->
-  <text x="64" y="414" class="mono label">CURRENT FOCUS</text>
-  <text x="181" y="414" class="mono value">turning operational workflows into software</text>
-  <rect x="566" y="400" width="8" height="17" rx="1" fill="#58A6FF" class="caret"/>
+  <!-- current work -->
+  <text x="64" y="414" class="mono label">working on</text>
+  <text x="148" y="414" class="mono value">backend fundamentals, automation and business workflows</text>
 
-  <!-- right panel -->
+  <!-- project flow -->
   <g transform="translate(708 96)">
     <rect width="500" height="318" rx="18" fill="#0B0F14" stroke="#30363D"/>
 
-    <text x="24" y="34" class="mono micro">WORKING SET</text>
-    <text x="476" y="34" text-anchor="end" class="mono label">live</text>
-    <circle cx="447" cy="30" r="4" fill="#3FB950" class="status"/>
+    <text x="24" y="34" class="mono micro">PROJECT FLOW</text>
     <line x1="24" y1="52" x2="476" y2="52" stroke="#21262D"/>
 
-    <!-- column headers -->
-    <text x="28" y="82" class="mono label">INPUT</text>
-    <text x="194" y="82" class="mono label">CORE</text>
-    <text x="376" y="82" class="mono label">OUTPUT</text>
-
-    <!-- rows -->
-    <g transform="translate(24 100)">
-      <rect width="130" height="54" rx="10" fill="#0D1117" stroke="#30363D"/>
-      <text x="14" y="23" class="ui value">Business rules</text>
-      <text x="14" y="41" class="mono label">REAL WORKFLOWS</text>
+    <!-- left nodes -->
+    <g transform="translate(24 92)">
+      <rect width="130" height="58" rx="10" fill="#0D1117" stroke="#30363D"/>
+      <text x="14" y="24" class="ui value">Business rules</text>
+      <text x="14" y="43" class="mono label">logic &amp; workflow</text>
     </g>
 
     <g transform="translate(24 184)">
-      <rect width="130" height="54" rx="10" fill="#0D1117" stroke="#30363D"/>
-      <text x="14" y="23" class="ui value">Data / SQL</text>
-      <text x="14" y="41" class="mono label">VALIDATION</text>
+      <rect width="130" height="58" rx="10" fill="#0D1117" stroke="#30363D"/>
+      <text x="14" y="24" class="ui value">Data / SQL</text>
+      <text x="14" y="43" class="mono label">queries &amp; validation</text>
     </g>
 
-    <g transform="translate(184 142)">
-      <rect width="136" height="54" rx="10" fill="#0C1520" stroke="#1F6FEB"/>
-      <text x="68" y="23" text-anchor="middle" class="ui value">Backend / APIs</text>
-      <text x="68" y="41" text-anchor="middle" class="mono label">IMPLEMENT</text>
+    <!-- center -->
+    <g transform="translate(184 138)">
+      <rect width="136" height="58" rx="10" fill="#0C1520" stroke="#1F6FEB"/>
+      <text x="68" y="24" text-anchor="middle" class="ui value">Backend / APIs</text>
+      <text x="68" y="43" text-anchor="middle" class="mono label">REST &amp; application logic</text>
     </g>
 
-    <g transform="translate(350 100)">
-      <rect width="126" height="54" rx="10" fill="#0D1117" stroke="#30363D"/>
-      <text x="63" y="23" text-anchor="middle" class="ui value">Systems</text>
-      <text x="63" y="41" text-anchor="middle" class="mono label">BUILD</text>
+    <!-- right nodes -->
+    <g transform="translate(350 92)">
+      <rect width="126" height="58" rx="10" fill="#0D1117" stroke="#30363D"/>
+      <text x="63" y="24" text-anchor="middle" class="ui value">Applications</text>
+      <text x="63" y="43" text-anchor="middle" class="mono label">systems</text>
     </g>
 
     <g transform="translate(350 184)">
-      <rect width="126" height="54" rx="10" fill="#0D1117" stroke="#30363D"/>
-      <text x="63" y="23" text-anchor="middle" class="ui value">Mainframe</text>
-      <text x="63" y="41" text-anchor="middle" class="mono label">LEARNING</text>
+      <rect width="126" height="58" rx="10" fill="#0D1117" stroke="#30363D"/>
+      <text x="63" y="24" text-anchor="middle" class="ui value">COBOL</text>
+      <text x="63" y="43" text-anchor="middle" class="mono label">current study</text>
     </g>
 
-    <!-- subtle flow lines -->
-    <path d="M154 127H184M154 211H184M320 169H350M320 169V211H350" stroke="#2F81F7" stroke-width="1.5" opacity="0.8"/>
-    <path d="M154 127H184M154 211H184M320 169H350M320 169V211H350" stroke="#58A6FF" stroke-width="1.5" class="route" opacity="0.9"/>
+    <!-- connectors -->
+    <path d="M154 121H184M154 213H184M320 167H350M320 167V213H350" stroke="#2F81F7" stroke-width="1.4" opacity="0.55"/>
+    <path d="M154 121H184M154 213H184M320 167H350M320 167V213H350" stroke="#58A6FF" stroke-width="1.4" class="route" opacity="0.75"/>
 
-    <!-- moving packets -->
-    <circle r="4" fill="#58A6FF">
-      <animateMotion dur="5.5s" repeatCount="indefinite" path="M154 127 H184" />
+    <!-- subtle data packets -->
+    <circle r="3.5" fill="#58A6FF">
+      <animateMotion dur="7s" repeatCount="indefinite" path="M154 121 H184" />
     </circle>
-    <circle r="4" fill="#58A6FF">
-      <animateMotion dur="6.5s" begin="1.2s" repeatCount="indefinite" path="M320 169 H350" />
+    <circle r="3.5" fill="#58A6FF">
+      <animateMotion dur="8.5s" begin="1.5s" repeatCount="indefinite" path="M320 167 H350" />
     </circle>
 
-    <line x1="24" y1="266" x2="476" y2="266" stroke="#21262D"/>
-    <text x="24" y="294" class="mono label">understand → implement → validate → improve</text>
+    <line x1="24" y1="270" x2="476" y2="270" stroke="#21262D"/>
+    <text x="24" y="297" class="mono label">understand → build → validate → improve</text>
   </g>
 </svg>
