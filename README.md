@@ -1,18 +1,19 @@
-> **What am I working on right now?**  
-> I'm rebuilding this GitHub around things I can actually run, explain and improve — starting with a real business workflow.
+> **What am I building right now?**  
+> I'm turning real operational problems into public systems I can run, explain, test and evolve.
 >
-> - [x] Rebuild the profile around real activity instead of decorative cards
-> - [x] Add live GitHub metrics and Spotify
-> - [ ] **Sales Hub** — real business workflow turned into a portfolio project
-> - [ ] **Java** — focused backend / OOP project
-> - [ ] **Python** — useful automation project
-> - [ ] **Mainframe / COBOL** — public study lab
->   - → current focus: getting **Sales Hub** ready to publish
+> - [x] **[Nanonicoins](https://github.com/daviSilva-devv/nanonicoins)** — market intelligence, signal lifecycle and delivery reliability
+> - [x] **[Sales Hub](https://github.com/daviSilva-devv/sales-hub)** — retail/B2B workflow, pricing and billing handoff
+> - [x] **[Field Operations](https://github.com/daviSilva-devv/field-operations)** — mobile-first delivery operations and exception handling
+> - [x] **[Proof of Delivery Book](https://github.com/daviSilva-devv/digital-receipt-book)** — OCR document indexing and searchable receipt ranges
+> - [x] **[Caça Preço](https://github.com/daviSilva-devv/caca-preco)** — swipe-first price discovery, scoring and alerts
+> - [ ] **WhatsApp Platform** — official Meta API + multi-client SaaS
+>   - → current focus: architecture, API integration and the first usable multi-client flow
 >
-> *ADS @ SENAC · São Paulo · open to Software Development, Backend and Systems internships.*
+> *19 · ADS @ SENAC · São Paulo · open to Software Development, Backend and Systems internships.*
 
 <p align="center">
   <samp>
+    <a href="https://davisilva.vercel.app">portfolio</a> ·
     <a href="https://www.linkedin.com/in/davisilvadevv/">linkedin</a> ·
     <a href="mailto:Davi261018@outlook.com">email</a> ·
     <a href="https://github.com/daviSilva-devv?tab=repositories">repositories</a>
