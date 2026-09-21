@@ -7,7 +7,7 @@
 > - [x] **[Proof of Delivery Book](https://github.com/daviSilva-devv/digital-receipt-book)** — OCR document indexing and searchable receipt ranges
 > - [x] **[Caça Preço](https://github.com/daviSilva-devv/caca-preco)** — swipe-first price discovery, scoring and alerts
 > - [ ] **WhatsApp Platform** — official Meta API + multi-client SaaS
-> - [ ] **TalionQA** — project intelligence for websites and repositories: scans runtime and code, detects bugs and security risks, builds Project DNA and turns findings into an interactive X-Ray
+> - [ ] **[TalionQA](https://github.com/daviSilva-devv/talionqa)** — project intelligence for websites and repositories: scans runtime and code, detects bugs and security risks, builds Project DNA and turns findings into an interactive X-Ray
 >   - → current focus: product definition, URL/repository scanner, normalized findings, Project DNA and graph-first white/purple X-Ray UI
 >
 > *19 · ADS @ SENAC · São Paulo · open to Software Development, Backend and Systems internships.*
